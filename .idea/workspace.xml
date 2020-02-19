@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa93042c-7026-4b74-8c73-8670350f4664" name="Default Changelist" comment="" />
+    <list default="true" id="aa93042c-7026-4b74-8c73-8670350f4664" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/EX_ArithmeticOperator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EX_BitwiseOperator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EX_IncrementAndDecrementOperator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EX_IntegerAndRealDataType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EX_LiteralDataType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EX_TrapOfRealNumber.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EX_Variable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinPractice/META-INF/KotlinPractice.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinPractice/META-INF/KotlinPractice.kotlin_module" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +24,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Y1h8F36ZIt5tRX9qhvDim5LA0E" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -35,28 +51,67 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Kotlin.EX_ExpressionKt">
-    <configuration name="EX_ExpressionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.EX_TrapOfRealNumberKt">
+    <configuration name="EX_ArithmeticOperatorKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinPractice" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="EX_ExpressionKt" />
+      <option name="MAIN_CLASS_NAME" value="EX_ArithmeticOperatorKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloKotlinKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="EX_BitwiseOperatorKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinPractice" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="HelloKotlinKt" />
+      <option name="MAIN_CLASS_NAME" value="EX_BitwiseOperatorKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EX_IncrementAndDecrementOperatorKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinPractice" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="EX_IncrementAndDecrementOperatorKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EX_IntegerAndRealDataTypeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinPractice" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="EX_IntegerAndRealDataTypeKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EX_TrapOfRealNumberKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinPractice" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="EX_TrapOfRealNumberKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -64,8 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.EX_ExpressionKt" />
-        <item itemvalue="Kotlin.HelloKotlinKt" />
+        <item itemvalue="Kotlin.EX_TrapOfRealNumberKt" />
+        <item itemvalue="Kotlin.EX_IntegerAndRealDataTypeKt" />
+        <item itemvalue="Kotlin.EX_BitwiseOperatorKt" />
+        <item itemvalue="Kotlin.EX_IncrementAndDecrementOperatorKt" />
+        <item itemvalue="Kotlin.EX_ArithmeticOperatorKt" />
       </list>
     </recent_temporary>
   </component>
@@ -79,7 +137,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582115847112</updated>
-      <workItem from="1582115850218" duration="1627000" />
+      <workItem from="1582115850218" duration="5796000" />
     </task>
     <servers />
   </component>
@@ -87,22 +145,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1582117701967">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1582121932702">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582117701967" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1582117701965">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582121932702" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1582121932701">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582117701965" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1582117701962">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582121932701" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1582121932701">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582117701962" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1582117701966">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582121932701" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1582121932702">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582117701966" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582121932702" />
     <state x="208" y="31" key="SettingsEditor" timestamp="1582117503035">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
