@@ -2,34 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa93042c-7026-4b74-8c73-8670350f4664" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/020_EX_IfElse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/021_EX_NestedIfElse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/022_EX_IfExpression.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/023_EX_When.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/024_WhenExpression.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/025_EX_While.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/026_EX_DoWhile.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/027_EX_Continue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/028_EX_Break.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/029_EX_Label.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/030_EX_function.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/031_EX_ParameterAndArgument.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/032_EX_UnitType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/033_EX_DefaultArgument.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/034_EX_VariableArgument.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/035_EX_Console.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinPractice/EX_ArithmeticOperatorKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinPractice/EX_AssignmentOperatorKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinPractice/EX_BitwiseOperatorKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinPractice/EX_CharTypeKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinPractice/EX_CommentKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinPractice/EX_ComparisonOperatorKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinPractice/EX_ExpressionIntroStringKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinPractice/EX_ExpressionKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinPractice/EX_IncrementAndDecrementOperatorKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinPractice/EX_IntegerAndRealDataTypeKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinPractice/EX_LiteralDataTypeKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinPractice/EX_StatementKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinPractice/EX_StringTypeKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinPractice/EX_TrapOfRealNumberKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinPractice/EX_TypeAliasKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinPractice/EX_VariableKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinPractice/HelloKotlinKt.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinPractice/META-INF/KotlinPractice.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinPractice/META-INF/KotlinPractice.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,86 +51,86 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Kotlin._029_EX_LabelKt">
-    <configuration name="_025_EX_WhileKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin._034_EX_VariableArgumentKt">
+    <configuration name="_030_EX_functionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinPractice" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="_025_EX_WhileKt" />
+      <option name="MAIN_CLASS_NAME" value="_030_EX_functionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_026_EX_DoWhileKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="_031_EX_ParameterAndArgumentKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinPractice" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="_026_EX_DoWhileKt" />
+      <option name="MAIN_CLASS_NAME" value="_031_EX_ParameterAndArgumentKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_027_EX_ContinueKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="_032_EX_UnitTypeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinPractice" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="_027_EX_ContinueKt" />
+      <option name="MAIN_CLASS_NAME" value="_032_EX_UnitTypeKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_028_EX_BreakKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="_033_EX_DefaultArgumentKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinPractice" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="_028_EX_BreakKt" />
+      <option name="MAIN_CLASS_NAME" value="_033_EX_DefaultArgumentKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_029_EX_LabelKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="_034_EX_VariableArgumentKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinPractice" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="_029_EX_LabelKt" />
+      <option name="MAIN_CLASS_NAME" value="_034_EX_VariableArgumentKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin._025_EX_WhileKt" />
-      <item itemvalue="Kotlin._026_EX_DoWhileKt" />
-      <item itemvalue="Kotlin._027_EX_ContinueKt" />
-      <item itemvalue="Kotlin._028_EX_BreakKt" />
-      <item itemvalue="Kotlin._029_EX_LabelKt" />
+      <item itemvalue="Kotlin._030_EX_functionKt" />
+      <item itemvalue="Kotlin._031_EX_ParameterAndArgumentKt" />
+      <item itemvalue="Kotlin._032_EX_UnitTypeKt" />
+      <item itemvalue="Kotlin._033_EX_DefaultArgumentKt" />
+      <item itemvalue="Kotlin._034_EX_VariableArgumentKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin._029_EX_LabelKt" />
-        <item itemvalue="Kotlin._028_EX_BreakKt" />
-        <item itemvalue="Kotlin._027_EX_ContinueKt" />
-        <item itemvalue="Kotlin._026_EX_DoWhileKt" />
-        <item itemvalue="Kotlin._025_EX_WhileKt" />
+        <item itemvalue="Kotlin._034_EX_VariableArgumentKt" />
+        <item itemvalue="Kotlin._033_EX_DefaultArgumentKt" />
+        <item itemvalue="Kotlin._032_EX_UnitTypeKt" />
+        <item itemvalue="Kotlin._031_EX_ParameterAndArgumentKt" />
+        <item itemvalue="Kotlin._030_EX_functionKt" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +148,7 @@
       <workItem from="1582162529658" duration="2043000" />
       <workItem from="1583325429430" duration="2786000" />
       <workItem from="1583725171988" duration="3734000" />
+      <workItem from="1586311601638" duration="4951000" />
     </task>
     <servers />
   </component>
@@ -188,26 +168,26 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1017" y="511" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1582181224367" />
-    <state width="2518" height="423" key="GridCell.Tab.0.bottom" timestamp="1583728946604">
+    <state width="1605" height="314" key="GridCell.Tab.0.bottom" timestamp="1586317564244">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582121932702" />
-    <state width="2518" height="423" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1583728946604" />
-    <state width="2518" height="423" key="GridCell.Tab.0.center" timestamp="1583728946604">
+    <state width="1605" height="314" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1586317564244" />
+    <state width="1605" height="314" key="GridCell.Tab.0.center" timestamp="1586317564243">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582121932701" />
-    <state width="2518" height="423" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1583728946604" />
-    <state width="2518" height="423" key="GridCell.Tab.0.left" timestamp="1583728946603">
+    <state width="1605" height="314" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1586317564243" />
+    <state width="1605" height="314" key="GridCell.Tab.0.left" timestamp="1586317564243">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582121932701" />
-    <state width="2518" height="423" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1583728946603" />
-    <state width="2518" height="423" key="GridCell.Tab.0.right" timestamp="1583728946604">
+    <state width="1605" height="314" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1586317564243" />
+    <state width="1605" height="314" key="GridCell.Tab.0.right" timestamp="1586317564243">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582121932702" />
-    <state width="2518" height="423" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1583728946604" />
+    <state width="1605" height="314" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1586317564243" />
     <state width="2518" height="519" key="GridCell.Tab.1.bottom" timestamp="1582181486177">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -229,10 +209,10 @@
     </state>
     <state x="208" y="31" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582117503035" />
     <state x="370" y="50" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1582181074315" />
-    <state x="706" y="445" key="com.intellij.ide.util.TipDialog" timestamp="1583725201686">
+    <state x="706" y="445" key="com.intellij.ide.util.TipDialog" timestamp="1586311636882">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="706" y="445" key="com.intellij.ide.util.TipDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1583725201686" />
+    <state x="706" y="445" key="com.intellij.ide.util.TipDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1586311636882" />
     <state x="397" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1582115857022" />
   </component>
 </project>
