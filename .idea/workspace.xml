@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa93042c-7026-4b74-8c73-8670350f4664" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ex_class/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_import/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_memory_heap/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_object/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_package/Math.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_garbage_collection/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_role_of_heap/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_role_of_heap/Product.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_string_plus/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinPractice/META-INF/KotlinPractice.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinPractice/META-INF/KotlinPractice.kotlin_module" afterDir="false" />
     </list>
@@ -31,7 +30,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -55,7 +53,7 @@
       <recent name="$PROJECT_DIR$/src/ex_package" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt (2)">
+  <component name="RunManager" selected="Kotlin.MainKt (4)">
     <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinPractice" />
       <option name="VM_PARAMETERS" />
@@ -82,6 +80,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainKt (3)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="KotlinPractice" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ex_role_of_heap.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt (4)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="KotlinPractice" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ex_garbage_collection.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinPractice" />
       <option name="VM_PARAMETERS" />
@@ -95,46 +119,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_041_EX_SplitSourceFileKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="KotlinPractice" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ex_package._041_EX_SplitSourceFileKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_043_MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="KotlinPractice" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ex_func_in_another_package._043_MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Kotlin._041_EX_SplitSourceFileKt" />
-      <item itemvalue="Kotlin._043_MainKt" />
       <item itemvalue="Kotlin.MainKt" />
       <item itemvalue="Kotlin.MainKt (1)" />
       <item itemvalue="Kotlin.MainKt (2)" />
+      <item itemvalue="Kotlin.MainKt (3)" />
+      <item itemvalue="Kotlin.MainKt (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt (4)" />
+        <item itemvalue="Kotlin.MainKt (3)" />
         <item itemvalue="Kotlin.MainKt (2)" />
         <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="Kotlin._043_MainKt" />
-        <item itemvalue="Kotlin._041_EX_SplitSourceFileKt" />
       </list>
     </recent_temporary>
   </component>
@@ -155,11 +153,12 @@
       <workItem from="1586311601638" duration="4951000" />
       <workItem from="1586414594785" duration="2023000" />
       <workItem from="1586492275174" duration="4367000" />
+      <workItem from="1586759317633" duration="2465000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="880" y="385" key="#Project_Structure" timestamp="1582180446222">
@@ -174,26 +173,26 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1017" y="511" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1582181224367" />
-    <state width="1444" height="314" key="GridCell.Tab.0.bottom" timestamp="1586498433788">
+    <state width="1430" height="314" key="GridCell.Tab.0.bottom" timestamp="1586778063048">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582121932702" />
-    <state width="1444" height="314" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1586498433788" />
-    <state width="1444" height="314" key="GridCell.Tab.0.center" timestamp="1586498433788">
+    <state width="1430" height="314" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1586778063048" />
+    <state width="1430" height="314" key="GridCell.Tab.0.center" timestamp="1586778063048">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582121932701" />
-    <state width="1444" height="314" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1586498433788" />
-    <state width="1444" height="314" key="GridCell.Tab.0.left" timestamp="1586498433787">
+    <state width="1430" height="314" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1586778063048" />
+    <state width="1430" height="314" key="GridCell.Tab.0.left" timestamp="1586778063047">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582121932701" />
-    <state width="1444" height="314" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1586498433787" />
-    <state width="1444" height="314" key="GridCell.Tab.0.right" timestamp="1586498433788">
+    <state width="1430" height="314" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1586778063047" />
+    <state width="1430" height="314" key="GridCell.Tab.0.right" timestamp="1586778063048">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582121932702" />
-    <state width="1444" height="314" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1586498433788" />
+    <state width="1430" height="314" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1586778063048" />
     <state width="2518" height="519" key="GridCell.Tab.1.bottom" timestamp="1582181486177">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
