@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa93042c-7026-4b74-8c73-8670350f4664" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ex_array/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_array_to_vararg/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_enum_class/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_enum_class_members/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_enum_class_practice/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_sealed_class/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_sealed_class/Others.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_sealed_class/Sealed.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_class_delegation/ClassDelegator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_class_delegation/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_class_delegation/Plusable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_class_delegation/Sample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_delegated_property/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_delegated_property/Sample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_delegated_property/SquareDelegator.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinPractice/META-INF/KotlinPractice.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinPractice/META-INF/KotlinPractice.kotlin_module" afterDir="false" />
     </list>
@@ -58,7 +57,7 @@
       <recent name="$PROJECT_DIR$/src/ex_package" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt (3)">
+  <component name="RunManager" selected="Kotlin.MainKt (5)">
     <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinPractice" />
       <option name="VM_PARAMETERS" />
@@ -98,6 +97,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainKt (4)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="KotlinPractice" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ex_delegated_property.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainKt (5)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinPractice" />
       <option name="VM_PARAMETERS" />
@@ -105,20 +117,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ex_array_to_vararg.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="KotlinPractice" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ex_enum_class.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="ex_class_delegation.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt (5)" />
+        <item itemvalue="Kotlin.MainKt (4)" />
         <item itemvalue="Kotlin.MainKt (3)" />
         <item itemvalue="Kotlin.MainKt (2)" />
         <item itemvalue="Kotlin.MainKt (1)" />
-        <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="Kotlin.MainKt (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -175,6 +174,7 @@
       <workItem from="1590409898532" duration="2515000" />
       <workItem from="1590559756458" duration="1745000" />
       <workItem from="1591617612344" duration="3301000" />
+      <workItem from="1591797350962" duration="1870000" />
     </task>
     <servers />
   </component>
@@ -190,25 +190,25 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="744" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1589435782317" />
-    <state width="1424" height="366" key="GridCell.Tab.0.bottom" timestamp="1591622774784">
+    <state width="1418" height="366" key="GridCell.Tab.0.bottom" timestamp="1591800159997">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1424" height="366" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1591622774784" />
+    <state width="1418" height="366" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1591800159997" />
     <state width="1414" height="309" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1589873031947" />
-    <state width="1424" height="366" key="GridCell.Tab.0.center" timestamp="1591622774783">
+    <state width="1418" height="366" key="GridCell.Tab.0.center" timestamp="1591800159997">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1424" height="366" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1591622774783" />
+    <state width="1418" height="366" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1591800159997" />
     <state width="1414" height="309" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1589873031947" />
-    <state width="1424" height="366" key="GridCell.Tab.0.left" timestamp="1591622774783">
+    <state width="1418" height="366" key="GridCell.Tab.0.left" timestamp="1591800159996">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1424" height="366" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1591622774783" />
+    <state width="1418" height="366" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1591800159996" />
     <state width="1414" height="309" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1589873031947" />
-    <state width="1424" height="366" key="GridCell.Tab.0.right" timestamp="1591622774784">
+    <state width="1418" height="366" key="GridCell.Tab.0.right" timestamp="1591800159997">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1424" height="366" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1591622774784" />
+    <state width="1418" height="366" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1591800159997" />
     <state width="1414" height="309" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1589873031947" />
     <state x="370" y="50" key="SettingsEditor" timestamp="1589695217530">
       <screen x="0" y="0" width="2560" height="1440" />
